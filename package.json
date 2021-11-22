@@ -1,7 +1,16 @@
 {
   "name": "yarn3-test",
   "packageManager": "yarn@3.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "yarn workspace client test && yarn workspace server test"
+  },
   "dependencies": {
-    "jest": "^27.3.1"
+    "esbuild": "^0.13.5",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1"
   }
 }
