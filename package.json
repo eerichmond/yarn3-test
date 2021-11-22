@@ -8,8 +8,6 @@
     "test": "yarn workspace client test && yarn workspace server test"
   },
   "dependencies": {
-    "esbuild": "^0.13.5",
-    "esbuild-jest": "^0.5.0",
     "jest": "^27.3.1",
     "prettier": "^2.4.1"
   }
