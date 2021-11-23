@@ -1,6 +1,3 @@
-const express = require('express');
-
 it('works', () => {
-  const app = express();
-  console.log(`works ${app.name}`);
+  console.log(`server works`);
 });
